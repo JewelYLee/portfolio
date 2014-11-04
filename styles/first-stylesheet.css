@@ -10,8 +10,8 @@ img.pic {
 }
 /* navbar */
 nav {
-    background:#ffffff;
-    border: 1px solid #dedede;
+	background:#ffffff;
+	border: 1px solid #dedede;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	color: #888888;
@@ -20,16 +20,16 @@ nav {
 	width: 90%; 
 }
 a {
-    font-family:'Lato', sans-serif;
-    font-weight: 300;
-    line-height: 140%;
+	font-family:'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 140%;
 	margin:10px;
 	padding:0;
 }
-    a:link { color: #777777; text-decoration: none }
-    a:visited { color: #777777; text-decoration: none }
-    a:hover { color: #BA1027; text-decoration: none }
-    a:active { color: #777777; text-decoration: none }
+	a:link { color: #777777; text-decoration: none }
+	a:visited { color: #777777; text-decoration: none }
+	a:hover { color: #BA1027; text-decoration: none }
+	a:active { color: #777777; text-decoration: none }
 /* list inside navbar*/
 ul li {
 	display: inline;
