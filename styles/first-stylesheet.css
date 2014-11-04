@@ -1,5 +1,5 @@
 /* CSS file for Jewel's portfolio website*/
-html {background:#ffffff}
+html {background:#BCE8E6}
 /* Profile Pic */
 img.pic {
 	height:240px;
@@ -7,14 +7,14 @@ img.pic {
 	float:left;
 	border:0;
     opacity:0.85;
-    }
+}
 /* navbar */
 nav {
-	background-color: #fff;
+    background:#ffffff;
 	border: 1px solid #dedede;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	color: #888;
+	color: #888888;
 	display: block;
 	margin: 8px 22px 8px 22px;
 	width: 90%; 
@@ -31,13 +31,12 @@ a {
     a:hover { color: #BA1027; text-decoration: none }
     a:active { color: #777777; text-decoration: none }
 /* list inside navbar*/
-  ul li {
+ul li {
 	display: inline;
 	position: relative;
 	margin:0 20px 0 0;
 	cursor: pointer;
-  }
-
+}
 /* main content*/
 article {
 	width:100%;
@@ -45,7 +44,7 @@ article {
 	padding:10px;
 	margin:100px auto 100px auto;
 	float:center;
-    }
+}
 h1 {
 	color: black;
 	font-family: 'Lato', sans-serif;
@@ -54,7 +53,7 @@ h1 {
 	margin:20px;
 	padding:0;
 	float:up;
-    }
+}
 p {
 	color: #555555;
 	font-family: 'Lato', sans-serif;
@@ -63,7 +62,7 @@ p {
 	line-height: 140%;
 	margin:20px;
 	padding:0;
-    }
+}
 footer h6 {
 	color:#777777;
 	font-size:11px;
@@ -71,4 +70,4 @@ footer h6 {
 	font-weight:100;
 	line-height:140%;
 	margin:20px;
-  }
+}
