@@ -2,16 +2,16 @@
 html {background:#BCE8E6}
 /* Profile Pic */
 img.pic {
-	height:240px;
-	margin:0;
-	float:left;
-	border:0;
+    height:240px;
+    margin:0;
+    float:left;
+    border:0;
     opacity:0.85;
 }
 /* navbar */
 nav {
     background:#ffffff;
-	border: 1px solid #dedede;
+    border: 1px solid #dedede;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	color: #888888;
@@ -52,7 +52,7 @@ h1 {
 	line-height: 300%;
 	margin:20px;
 	padding:0;
-	float:up;
+	float:left;
 }
 p {
 	color: #555555;
