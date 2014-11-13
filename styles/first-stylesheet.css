@@ -1,17 +1,5 @@
 /* CSS file for Jewel's portfolio website*/
 html {background:#BCE8E6}
-/* Profile Pic */
-<<<<<<< HEAD
-
-=======
-img.pic {
-	height:240px;
-	margin:0;
-	float:left;
-	border:0;
-	opacity:0.85;
-}
->>>>>>> 04ad6dbebecb4c3e3c2ca185224264807b97f846
 /* navbar */
 .Top  { 
     width: 90%;
@@ -28,27 +16,21 @@ header h1 {
 	padding:0;
     float: left;
 }
-.White { 
+.White ul { 
     background-color: #ffffff;
     width: 90%;
-    height: 60px;
+    height: 2em;
     margin: 2% 2% 0% 5%;
     position: relative;
+    padding-top: 8px;
 }
-.White nav {
-	border: 1px solid #dedede;
-	border-radius: 4px;
-	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	color: #888888;
-	display: block;
-	margin: 8px 22px 8px 22px;
-	width: 90%; 
-}
-.Main {
-    width: 90%;
-    height: 150px;
-    margin: 2% 2% 0% 5%;
-    position: relative;
+nav ul li {
+
+	display: inline;
+	position: relative;
+	margin:20px 20px 20px 20px;
+	cursor: pointer;
+    
 }
 a {
     font-family: 'Syncopate', sans-serif;
@@ -62,12 +44,7 @@ a {
 	a:hover { color: #BA1027; text-decoration: none }
 	a:active { color: #777777; text-decoration: none }
 /* list inside navbar*/
-ul li {
-	display: inline;
-	position: relative;
-	margin:0 20px 0 0;
-	cursor: pointer;
-}
+
 /* main content*/
 .MainLeft { 
     width: 20%;
@@ -75,7 +52,6 @@ ul li {
     margin: 0% 2% 2% 2%;
     float: left;
 }
-<<<<<<< HEAD
 .MainLeft img.pic {
     height:240px;
     opacity:0.85;
@@ -86,7 +62,7 @@ ul li {
     height: 20rem;
     margin: 2% 2%;
     float: right;
-=======
+}
 h1 {
 	color: black;
 	font-family: 'Lato', sans-serif;
@@ -94,9 +70,7 @@ h1 {
 	line-height: 300%;
 	margin:20px;
 	padding:0;
->>>>>>> 04ad6dbebecb4c3e3c2ca185224264807b97f846
 }
-
 p {
     color:#777777;
 	font-size:16px;
@@ -111,7 +85,6 @@ header i {
     margin-top: 30px;
 }
 footer {
-    background-color: #ffffff;
     width: 90%;
     height: 2em;
     margin: 2% 2% 0% 5%;
@@ -120,7 +93,7 @@ footer {
 }
 footer h6 {
     font-family: 'Syncopate', sans-serif;
-	color:#777777;
+	color:#ffffff;
 	font-size:12px;
 	font-weight:100;
 	line-height:140%;
