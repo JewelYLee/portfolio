@@ -1,7 +1,17 @@
 /* CSS file for Jewel's portfolio website*/
 html {background:#BCE8E6}
 /* Profile Pic */
+<<<<<<< HEAD
 
+=======
+img.pic {
+	height:240px;
+	margin:0;
+	float:left;
+	border:0;
+	opacity:0.85;
+}
+>>>>>>> 04ad6dbebecb4c3e3c2ca185224264807b97f846
 /* navbar */
 .Top  { 
     width: 90%;
@@ -65,6 +75,7 @@ ul li {
     margin: 0% 2% 2% 2%;
     float: left;
 }
+<<<<<<< HEAD
 .MainLeft img.pic {
     height:240px;
     opacity:0.85;
@@ -75,6 +86,15 @@ ul li {
     height: 20rem;
     margin: 2% 2%;
     float: right;
+=======
+h1 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 300%;
+	margin:20px;
+	padding:0;
+>>>>>>> 04ad6dbebecb4c3e3c2ca185224264807b97f846
 }
 
 p {
