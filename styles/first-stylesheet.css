@@ -1,16 +1,31 @@
 /* CSS file for Jewel's portfolio website*/
 html {background:#BCE8E6}
 /* Profile Pic */
-img.pic {
-    height:240px;
-    margin:0;
-    float:left;
-    border:0;
-    opacity:0.85;
-}
+
 /* navbar */
-nav {
-	background:#ffffff;
+.Top  { 
+    width: 90%;
+    height: 150px;
+    margin: 2% 2% 0% 5%;
+    position: relative;
+}
+header h1 {
+	color: black;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: 300;
+	line-height: 300%;
+	margin:10px;
+	padding:0;
+    float: left;
+}
+.White { 
+    background-color: #ffffff;
+    width: 90%;
+    height: 60px;
+    margin: 2% 2% 0% 5%;
+    position: relative;
+}
+.White nav {
 	border: 1px solid #dedede;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
@@ -19,8 +34,14 @@ nav {
 	margin: 8px 22px 8px 22px;
 	width: 90%; 
 }
+.Main {
+    width: 90%;
+    height: 150px;
+    margin: 2% 2% 0% 5%;
+    position: relative;
+}
 a {
-	font-family:'Lato', sans-serif;
+    font-family: 'Syncopate', sans-serif;
 	font-weight: 300;
 	line-height: 140%;
 	margin:10px;
@@ -38,36 +59,51 @@ ul li {
 	cursor: pointer;
 }
 /* main content*/
-article {
-	width:100%;
-	height:200px;
-	padding:10px;
-	margin:100px auto 100px auto;
-	float:center;
+.MainLeft { 
+    width: 20%;
+    height: 20rem;
+    margin: 0% 2% 2% 2%;
+    float: left;
 }
-h1 {
-	color: black;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	line-height: 300%;
-	margin:20px;
-	padding:0;
-	float:left;
+.MainLeft img.pic {
+    height:240px;
+    opacity:0.85;
+    margin: 20px;
 }
+.MainRight { 
+    width: 72%;
+    height: 20rem;
+    margin: 2% 2%;
+    float: right;
+}
+
 p {
-	color: #555555;
-	font-family: 'Lato', sans-serif;
-	font-size:15px;
-	font-weight: 100;
-	line-height: 140%;
-	margin:20px;
-	padding:0;
+    color:#777777;
+	font-size:16px;
+	font-family:'Lato', sans-serif;
+    font-weight:100;
+	line-height:140%;
+    margin: 20px;
+}
+header i {
+    float: right;
+    padding: 10px;
+    margin-top: 30px;
+}
+footer {
+    background-color: #ffffff;
+    width: 90%;
+    height: 2em;
+    margin: 2% 2% 0% 5%;
+    clear: both;
+    text-align: center;
 }
 footer h6 {
+    font-family: 'Syncopate', sans-serif;
 	color:#777777;
-	font-size:11px;
-	font-family:'Lato', sans-serif;
+	font-size:12px;
 	font-weight:100;
 	line-height:140%;
-	margin:20px;
+    padding-top: 8px;
 }
+
